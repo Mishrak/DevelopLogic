@@ -16,3 +16,6 @@ Division: Division.c
 
 AreaOfCircle: AreaOfCircle.c
 	$(CC) $(FLAGS) AreaOfCircle AreaOfCircle.c
+
+AreaOfTriangle: AreaOfTriangle.c
+	$(CC) $(FLAGS) AreaOfTriangle AreaOfTriangle.c
