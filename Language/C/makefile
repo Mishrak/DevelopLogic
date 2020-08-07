@@ -13,3 +13,6 @@ Multiplication: Multiplication.c
 
 Division: Division.c
 	$(CC) $(FLAGS) Division Division.c
+
+AreaOfCircle: AreaOfCircle.c
+	$(CC) $(FLAGS) AreaOfCircle AreaOfCircle.c
