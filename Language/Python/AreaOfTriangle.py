@@ -1,6 +1,3 @@
-l_base = 0.0
-l_height = 0.0
-l_area = 0.0
 l_base = float(input('Enter the base value of the triangle = '))
 l_height = float(input('Enter the height value of the triangle = '))
 l_area = 0.5 * l_base * l_height
