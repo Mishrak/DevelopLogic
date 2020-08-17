@@ -2,6 +2,10 @@ CC=gcc
 RM=rm
 FLAGS=-Wall -o
 
+
+Calculate_Grade: Calculate_Grade.c
+	$(CC) $(FLAGS) Calculate_Grade Calculate_Grade.c
+
 Identify_Positive_Negative: Identify_Positive_Negative.c
 	$(CC) $(FLAGS) Identify_Positive_Negative Identify_Positive_Negative.c
 
